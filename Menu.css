@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #f2f2f2;
+  }
+  
+  header {
+    background: white;
+     margin-top: 10px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px;
+  }
+  
+  .logo {
+    width: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .souligner {
+    text-decoration: underline !important;
+    text-decoration-color: #d54434 !important;
+}
+  
+  .commande {
+    background: #de4a32;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .commande button {
+    margin-top: 10px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  main {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  main h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-right: 500px;
+  }
+  
+  .texte1 {
+    margin: 10px 0;
+    margin-right: 270px;
+  }
+  
+ span {
+    color: #de4a32 !important;
+  }
+  
+  .menu-content {
+    background: white;
+    margin: 30px auto;
+    padding: 40px;
+    width: 600px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .menu-icon {
+    width: 80px;
+    margin-bottom: 30px;
+  }
+  
+  .category {
+    margin: 30px 0;
+  }
+  
+  .category h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .category h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #de4a32;
+    margin: 5px auto;
+  }
+  
+  .contact {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: #de4a32;
+  }
+  
+  .contact a {
+    color: #000;
+  }
+  
+  footer {
+    background: #000;
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+
+  .socials {
+    color: #f2f2f2;
+    margin-left: 1050px;
+    font-size: 20px;
+ }
+ 
+  
